@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gemini Chat Mini</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            padding: 10px;
+        }
+
+        #question,
+        #submit,
+        #answer {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        #answer {
+            border: 1px solid #ddd;
+            resize: none;
+            height: 100px;
+        }
+
+        #submit {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <input type="text" id="question" placeholder="Nhập câu hỏi">
+    <button style="background-color: white;" id="submit">Xác Nhận</button>
+    <textarea id="answer" placeholder="câu trả lời ở đây"></textarea>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Chat Mini popup",
+  "version": "1.0",
+  "description": "Tạo popup Gemini Chat qua API của Gemini",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  }
+}
